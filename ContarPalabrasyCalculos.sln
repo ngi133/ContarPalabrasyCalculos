@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContarPalabrasyCalculos", "ContarPalabrasyCalculos.csproj", "{562E82D1-3450-4F45-8FE9-6199E546D8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContarPalabrasyCalculosTests", "..\ContarPalabrasyCalculosTests\ContarPalabrasyCalculosTests.csproj", "{91B9B68A-44FC-4E1E-9BF2-FE210030BB75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{562E82D1-3450-4F45-8FE9-6199E546D8B5} = {562E82D1-3450-4F45-8FE9-6199E546D8B5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{562E82D1-3450-4F45-8FE9-6199E546D8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562E82D1-3450-4F45-8FE9-6199E546D8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562E82D1-3450-4F45-8FE9-6199E546D8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562E82D1-3450-4F45-8FE9-6199E546D8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B9B68A-44FC-4E1E-9BF2-FE210030BB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B9B68A-44FC-4E1E-9BF2-FE210030BB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B9B68A-44FC-4E1E-9BF2-FE210030BB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B9B68A-44FC-4E1E-9BF2-FE210030BB75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {473A09C9-0C46-48D0-9ED5-651BED21EAE6}
+	EndGlobalSection
+EndGlobal
